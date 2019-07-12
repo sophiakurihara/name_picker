@@ -1,0 +1,35 @@
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.row {
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+    width: 100%;
+}
+
+.one-half {
+    width: 50%;
+}
+
+#chosen-one {
+    height: 2em;
+    font-family: 'Staatliches', cursive;
+    font-size: 5em;
+}
+#randomize {
+    margin-bottom: 2em;
+}
